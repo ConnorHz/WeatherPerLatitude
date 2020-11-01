@@ -13,4 +13,8 @@ I'm not sure if this can be called corrilated or not, but it does seem like it's
 No correlation whatsoever. The plot is all over the place and I can confidently say that latitude has nothing to do with cloud coverage.
 
 **4. Wind Speed vs Latitude (lower right):**
-As with cloud coverage, wind speed seems to be uneffected by latitude. 
+As with cloud coverage, wind speed seems to be uneffected by latitude.
+
+![Weather Metrics Linear Regression](Resources/Images/WeatherMetricsLinRegress.png)
+
+The plots above show linear regression models for each relationship for cities in the northern (left column) and southern (right column) hemisphere. When looking at these plots, you can see that our results are pretty much the same. The only metric that correlates with latitude is temperature. The other three metrics show no signs of correlation.
